@@ -1,0 +1,113 @@
+body {
+  background-color: hsl(235, 16%, 14%);
+  background-image: url(/images/bg-stars.svg);
+  background-size: cover;
+}
+
+h3 {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  margin-top: 80px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.timingBoxes {
+   margin-right: auto;
+  margin-left: auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 50%;
+  }
+
+.timingBox {
+  margin-top: -10px;
+  height: 200px;
+}
+
+.boxNum {
+  width: 120px;
+  height: 105px;
+  margin: 15px;
+  background-color: hsl(236, 21%, 26%);
+  border-radius: 10px;
+  color: hsl(345, 95%, 68%);
+  text-align: center;
+  font-size: 85px;
+  font-weight: bold;
+}
+
+.boxName {
+  color: hsl(237, 18%, 59%);
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+.mount{
+  background-size: cover;
+  width: 100%;
+  height: 170px;
+  margin-top: 21px;
+  margin-bottom: 0;
+}
+.icon {
+  text-align: center;
+  margin-top: -110px;
+}
+.logo {
+  margin: 10px;
+}
+.logo:hover {
+  cursor: pointer;
+  filter: invert(0.4) sepia(1) saturate(20.5) hue-rotate(313.2deg)
+    brightness(0.9);
+}
+
+@media only screen and (max-width: 390px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    height: 20px;
+  }
+  .timingBoxes {
+    width: auto;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  .timingBox {
+    margin-top: -10%;
+    height: 100px;
+  }
+  .boxName {
+    font-size: 8px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .boxNum {
+    width: 60px;
+    height: 52px;
+    margin: 10px;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .mount {
+    width: 100%;
+    height: 133px;
+  }
+  .icon {
+    margin-top: -80px;
+  }
+}
